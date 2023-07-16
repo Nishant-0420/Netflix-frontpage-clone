@@ -1,0 +1,95 @@
+/*@font-face {
+    font-family: 
+    src: url();
+}*/
+html, body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+.root{
+    background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8) ), url(./zgeTuV.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px; 
+}
+
+.img-logo{
+    width: 14%;
+}
+.button{
+    background-color: red;
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 7px;
+       /*display:inline-block;*/
+    cursor: pointer;
+}
+.main{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1,h2,p{
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 55px;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+h2{
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{ font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.last-block{
+    display: flex;
+    width:700px;
+    justify-content: space-around;
+    }
+.email{
+ height: 50px;
+ width: 470px;
+ font-size: 30px;
+ padding-left: 15px;
+ border-radius: 0.5rem;
+ background-color: transparent;
+ color: rgb(234, 244, 244);
+ 
+}
+.started{
+    width: 195px;
+    font-size: 1.7rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.started:hover {
+    background-color: #ff0b18;
+}
